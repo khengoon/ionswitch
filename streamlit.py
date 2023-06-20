@@ -9,7 +9,7 @@ from sklearn import *
 import xgboost as xgb
 from catboost import Pool, CatBoostRegressor
 from utils import lottie_ion
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 from sklearn.model_selection import KFold
 import joblib
 
@@ -22,7 +22,7 @@ from preprocessing import X_test, load_data
 
 ################################################################################
 
-st_lottie(lottie_ion, height=200)
+# st_lottie(lottie_ion, height=200)
 
 
 st.title('Liverpool Ion Channel')
